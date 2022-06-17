@@ -1,0 +1,8 @@
+@host = https://admin79.fat.klook.io
+
+### Campaign detail
+GET {{host}}/v1/promoadminsrv/campaign/detail?id=50017&is_draft=true
+
+
+### 查询 batch
+GET {{host}}/v2/couponadmsrv/batch/451587/detail
