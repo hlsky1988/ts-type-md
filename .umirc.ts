@@ -11,4 +11,7 @@ export default defineConfig({
   resolve: {
     passivePreview: true,
   },
+  base:'/ts-type-md',
+  publicPath:'/ts-type-md/',
+  exportStatic: {}
 });
